@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900);
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f2f2f2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #424141;
+}
+a,
+p,
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+}
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.user-item {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #424141;
+  cursor: pointer;
+  list-style: none;
+}
+.back-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #424141;
+  cursor: pointer;
+}
